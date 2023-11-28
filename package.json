@@ -25,9 +25,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@applitools/eyes-storybook": "^3.25.3",
+    "@applitools/eyes-storybook": "^3.45.0",
     "@storybook/addon-knobs": "^6.4.0",
-    "@storybook/react": "^6.3.12",
+    "@storybook/react": "^6.5.14",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "core-js": "^3.19.1"
