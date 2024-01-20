@@ -41,24 +41,25 @@ WithEmoji.story = {
         {left: 10, top: 20, width: 200, height: 80} // by absolute coordinates
       ],
       variations: [
-        {name: 'contexts', value: 'Themes=Light Theme,Language=English'},
         {
-          queryParams: [
-            {name: 'contexts', value: 'Themes=Light Theme,Language=English'},
-            {name: 'contexts', value: 'Themes=Dark Theme,Language=English'}
-          ]
+          queryParams: {
+            contexts: 'Themes=Light Theme,Language=English'
+          }
         },
         {
-          queryParams: [
-            {name: 'contexts', value: 'Themes=Light Theme,Language=English'},
-            {name: 'contexts', value: 'Themes=Dark Theme,Language=English'}
-          ]
+          queryParams: {
+            contexts: 'Themes=Dark Theme,Language=English'
+          }
         },
         {
-          queryParams: [
-            {name: 'contexts', value: 'Themes=Light Theme,Language=Japanese'},
-            {name: 'contexts', value: 'Themes=Dark Theme,Language=Japanese'},
-          ]
+          queryParams: {
+            contexts: 'Themes=Light Theme,Language=Japanese'
+          }
+        },
+        {
+          queryParams: {
+            contexts: 'Themes=Dark Theme,Language=Japanese'
+          }
         },
       ]
     }
